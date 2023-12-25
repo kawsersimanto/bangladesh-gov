@@ -1,0 +1,148 @@
+
+body{
+    background: url(./assets/images/bg_main.gif) center;
+}
+/* header part start */
+.cont{
+    width: 1000px;
+    margin: 0 auto;
+}
+.topbar{
+    height: 30px;
+    background-color: rgb(135, 63, 145);
+    color: white;
+    font-size: 13px;
+    line-height: 30px;
+    border-bottom: 1px solid rgb(10, 10, 10);
+}
+.header_right p{
+    display: inline-block;
+    border-right: 1px solid white;
+    padding-right: 20px;
+}
+.header_right a{
+    text-decoration: none;
+    color: white;
+    padding-left: 10px;
+}
+/* header part end */
+/* logo part start */
+.logo{
+    height: 110px;
+    background: rgb(236, 231, 231);
+}
+.logo_left{
+    line-height: 110px;
+}
+.logo_search{
+    top: 45px;
+    position: relative;
+}
+.logo_right{
+    padding-top: 35px;
+}
+.logo1{
+    border-right: 1px solid white;
+    padding-right: 10px;
+}
+.logo1 img{
+    position: relative;
+    top: 16%;
+}
+.logo2{
+    padding-left: 12px;
+}
+.logo2 h4{
+    font-size: 13px;
+    color: rebeccapurple;
+}
+input{
+    width: 75%;
+}
+.logo_search button{
+    background: #aaa;
+    font-size: 14px;
+}
+
+/* logo part end */
+/* menu part start */
+.main_menu a{
+    border-right: 1px solid black;
+    background: rgb(235, 227, 227);
+}
+.main_menu a:hover{
+    background: rgb(211, 113, 214);
+}
+/* menu part end */
+/* hero part start */
+.banner img{
+   border: 2px solid red;
+   padding: 10px;
+} 
+form select{
+    width: 70%;
+    border: 1px solid #ddd;
+    padding: 1px;
+    font-size: 13px;
+    background: #ddd;
+    border-radius: 5px;
+}
+form button{
+    width: 20%;
+    border: 1px solid #ddd;
+    padding: 1px;
+    font-size: 15px;
+    background: #ddd;
+    border-radius: 5px;
+}
+.side_video h3{
+    margin: 0 auto;
+    background: green;
+    color: #fff;
+    padding: 10px;
+    font-size: 15px;
+}
+.side_video img{
+    height: 200px;
+}
+.side_video h6{
+    color: rebeccapurple;
+
+}
+/* hero part end */
+/* list part start */
+.list ul{
+    list-style: none;
+    font-size: 15px;
+}
+.list h5{
+    font-size: 15px;
+    color: rebeccapurple;
+}
+.list ul li a{
+    text-decoration: none;
+    border-bottom: 1px solid green;
+    padding-bottom: 2px;
+    color: black;
+}
+.list ul li a:hover{
+    color: green;
+}
+/* list part end */
+/* footer part start */
+.nav-item{
+    font-size: 12px;
+    border-right: 1px solid black;
+}
+.fb_left p{
+    font-size: 11px;
+    padding-left: 20px;
+}
+.fb_right p{
+    font-size: 11px;
+    margin-top: 15px;
+}
+.cont_p{
+    border-bottom: 2px solid purple;
+}
+/* footer part end */
